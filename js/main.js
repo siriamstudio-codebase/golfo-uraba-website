@@ -2,42 +2,67 @@
    Valor = ID de Unsplash ("photo-...") o ruta propia ("assets/img/foto.jpg").
    null = tarjeta de color con emoji mientras no haya foto. */
 const U = {
-  beach:'photo-1708716175154-32344ec0868a', isle:'photo-1576475510454-b0af18970e6d',
-  aerial:'photo-1618064541372-289bdb6f5b7b', palms:'photo-1655299417498-52f3a304c2a4',
+  beach:'assets\\uso-comun\\necocli.jpg', grupo_lancha:'assets\\uso-comun\\grupo-lancha.jpg', isle:'photo-1618064541372-289bdb6f5b7b', isle2:'photo-1653465255362-2ce1ced1d97d',
+  playa_necocli:'assets\\uso-comun\\playa cristalina.jpg', atardecer_estadero:'assets\\uso-comun\\atardecer-estadero.jpeg' , palms:'photo-1655299417498-52f3a304c2a4', playa_necocli_angulo: 'assets\\uso-comun\\playa-otro-angulo.jpg',
   bay:'photo-1582300857444-5ddd87c86797', green:'photo-1617280325974-f9c5721a4862',
-  boats:'photo-1653465255362-2ce1ced1d97d', island:'photo-1631547537962-08c6b4e8e900',
-  jungle:'photo-1581778191198-c6c1bbf2c842', dome:'photo-1568322445389-495f4a7d20d4',
-  macaw:'photo-1708310945058-d01a27bff936', macaw2:'photo-1608336837853-0e986507a8bd',
-  turtle:'photo-1709483095301-2d1f3e95b1d4',
-  bed1:'photo-1658595148963-13b7da6dcd6d', bed2:'photo-1658595149281-8d6bb3643eab', bed3:'photo-1576354302919-96748cb8299e',
-  bed4:'photo-1683237854712-adb97a9eaa80', bed5:'photo-1658595148983-02cbe203aea7', bed6:'photo-1658595149174-ff76486ec800',
-  twin1:'photo-1657639754502-3c138cb24b4c', twin2:'photo-1744187170989-0da1811af435'
+  boats:'assets\\uso-comun\\grupo-muelle-close-up.jpg', island:'photo-1631547537962-08c6b4e8e900', necocli_parque: 'assets\\uso-comun\\necocli-parque.jpg', aerial:'photo-1617280325974-f9c5721a4862',
+jungle:'photo-1581778191198-c6c1bbf2c842', exp_cultura:'assets\\uso-comun\\bullerengue-uraba.jpg', dome:'photo-1653465255362-2ce1ced1d97d',
+  macaw:'photo-1708310945058-d01a27bff936', macaw2:'photo-1608336837853-0e986507a8bd', tucan: 'assets\\uso-comun\\tucan-arcoiris.jpg', titi:'assets\\uso-comun\\titi-cabeciblanco.jpg', manglar: 'assets\\uso-comun\\ensenada.png', grupo_bullerengue: 'assets\\uso-comun\\bullerengue-grupo-uraba.webp',
+  individual1:'assets\\habitaciones\\individual-cerca.jpg', baño_individual:'assets\\habitaciones\\baño.jpg', individual_exterior:'assets\\habitaciones\\habitacion-individual-exterior.jpg',
+  h_pareja_completa:'assets\\habitaciones\\pareja-completa.jpg', h_pareja_cerca:'assets\\habitaciones\\habitacion-pareja-cerca.jpg', h_pareja_baño:'assets\\habitaciones\\baño-interior.jpg', h_grupal_frente:'assets\\habitaciones\\habitacion-grupo-frente.jpg', h_grupo_tv:'assets\\habitaciones\\grupotv.jpg', h_grupal:'assets\\habitaciones\\habitacion-grupo.jpg',
+  h_familiar_completa:'assets\\habitaciones\\habitacion-familia-ventana.jpg', h_familiar_interior:'assets\\habitaciones\\familiar-interior.jpg', h_familiar_exterior:'assets\\habitaciones\\familiar-exterior.jpg', manglar_hotel: 'assets\\logo-aliados\\manglar-real.png', asotunec: 'assets\\logo-aliados\\asotunec.png', caribe: 'assets\\logo-aliados\\el-caribe.png', casa_costa: 'assets\\logo-aliados\\casa-costa.png',
+  letras_cafe: 'assets\\logo-aliados\\letras-cafe.png', tak_nakuet: 'assets\\logo-aliados\\tak-nakuet.png', celebracion_pareja: 'assets\\uso-comun\\celebracion-pareja.avif', picolino: 'assets\\uso-comun\\picolino-estante.webp', letras_lib: 'assets\\uso-comun\\letras-cafe-interior.webp',
+  pescado_frente_mar: 'assets\\uso-comun\\pescado-mar.jpg', carambolo: 'assets\\uso-comun\\carambolo.jpg', estadero: 'assets\\uso-comun\\estadero.jpg', arroz_coco: 'assets\\uso-comun\\arroz-coco.jpg', borojo: 'assets\\uso-comun\\borojo-servido.jpg', ceviche: 'assets\\uso-comun\\mar-a-mesa.jpg', sancocho: 'assets\\uso-comun\\sancocho-gallina.jpg',
+  lancha_capurgana: 'assets\\uso-comun\\guia de lancha.jpg', cuatri_necocli: 'assets\\uso-comun\\cuatrimotos-necocli.jpg', volcan: 'assets\\uso-comun\\volcan de lodo.jpg', cobre: 'assets\\uso-comun\\virgen-cobre.jpg', mutata: 'assets\\uso-comun\\mutata-bedo.jpg', sapzurro: 'assets\\uso-comun\\sapzurro-miel.jpg'
 };
 const IMG = {
-  hero: U.beach, intro: U.isle, cta: U.bay,
-  'exp-playa': U.aerial, 'exp-aventura': U.jungle, 'exp-cultura': U.dome, 'exp-grupos': U.boats, 'exp-operacion': U.island, 'exp-alojamiento': U.bed1,
-  'feat-aves': U.macaw, 'feat-fauna': U.turtle, 'feat-playas': U.palms, 'feat-rios': U.green, 'feat-cultura': U.dome,
-  'room-brisa': U.bed1, 'room-brisa-1': U.bed1, 'room-brisa-2': U.bed2, 'room-brisa-3': U.palms,
-  'room-manglar': U.bed4, 'room-manglar-1': U.bed4, 'room-manglar-2': U.bed5, 'room-manglar-3': U.green,
-  'room-atardecer': U.twin1, 'room-atardecer-1': U.twin1, 'room-atardecer-2': U.twin2, 'room-atardecer-3': U.bay,
-  'room-ceiba': U.bed6, 'room-ceiba-1': U.bed6, 'room-ceiba-2': U.bed3, 'room-ceiba-3': U.island,
+  hero: U.beach, intro: U.grupo_lancha, cta: U.atardecer_estadero,
+  'exp-playa': U.playa_necocli, 'exp-aventura': U.jungle, 'exp-cultura': U.exp_cultura, 'exp-grupos': U.boats, 'exp-operacion': U.necocli_parque, 'exp-alojamiento': U.individual1,
+  'feat-aves': U.tucan, 'feat-fauna': U.titi, 'feat-playas': U.playa_necocli_angulo, 'feat-rios': U.manglar, 'feat-cultura': U.grupo_bullerengue,
+  'room-brisa': U.individual1, 'individual-cerca': U.individual1, 'individual-baño': U.baño_individual, 'individual-exterior': U.individual_exterior,
+  'room-manglar': U.bed4, 'pareja-completa': U.h_pareja_completa, 'pareja-cerca': U.h_pareja_cerca, 'baño-pareja': U.h_pareja_baño,
+  'room-atardecer': U.twin1, 'familiar-completa': U.h_familiar_completa, 'familiar-exterior': U.h_familiar_exterior, 'familiar-interior': U.h_familiar_interior,
+  'room-ceiba': U.bed6, 'grupal-completa': U.h_grupal_frente, 'grupal': U.h_grupal, 'grupal-tv': U.h_grupo_tv,
   'food-almuerzos': null, 'food-mar': null, 'food-desayunos': null, 'food-combos': null, 'food-bebidas': null,
   'pack-sol': U.isle, 'pack-uraba': U.boats, 'pack-darien': U.jungle,
-  'form-playa': U.beach, 'form-aventura': U.jungle, 'form-cultura': U.dome, 'form-aves': U.macaw2
+  'form-playa': U.beach, 'form-aventura': U.jungle, 'form-cultura': U.exp_cultura, 'form-aves': U.macaw2,
+  'gastro-1': U.pescado_frente_mar, 'gastro-2': U.carambolo, 'gastro-3': U.estadero, 'gastro-carta': U.arroz_coco,
+'gastro-mar': U.ceviche, 'gastro-coco': U.arroz_coco, 'gastro-sancocho': U.sancocho, 'gastro-frutas': U.borojo,
+'gal-1': U.beach, 'gal-2': U.macaw, 'gal-3': U.turtle, 'gal-4': U.boats, 'gal-5': U.exp_cultura,
+'gal-6': U.jungle, 'gal-7': U.bay, 'gal-8': U.green, 'gal-9': U.aerial, 'gal-10': U.isle, 'hotel-manglar-real': U.manglar_hotel,
+'lib-1': U.letras_lib, 'lib-2': U.picolino, 'hotel-evento': U.celebracion_pareja,
+'plan-capurgana': U.lancha_capurgana, 'plan-sendero': U.jungle, 'plan-3playas': U.sapzurro, 
+'plan-cuatri': U.cuatri_necocli, 'plan-volcan': U.volcan, 'plan-cobre': U.cobre, 'plan-mutata': U.mutata, 'letras-cafe-lib': U.letras_cafe, 'tak-nakuet': U.tak_nakuet, 'caribe': U.caribe, 'casa-costa': U.casa_costa, 'asotunec': U.asotunec
 };
-const EMOJI = {'food-almuerzos':'🍲','food-mar':'🐟','food-desayunos':'🍳','food-combos':'🍽️','food-bebidas':'🥤',food:'🍽️'};
+const EMOJI = {'food-almuerzos':'🍲','food-mar':'🐟','food-desayunos':'🍳','food-combos':'🍽️','food-bebidas':'🥤',food:'🍽️', 'gastro-mar':'🐟','gastro-coco':'🥥','gastro-sancocho':'🍲','gastro-frutas':'🍹', gastro:'🍽️', lib:'📚',
+  'plan-cuatri':'🏍️','plan-volcan':'🌋','plan-cobre':'🌋','plan-mutata':'💧'
+ };
 const unsplash = id => `https://images.unsplash.com/${id}?auto=format&fit=crop&q=70&w=1400`;
-const placeholder = key => {
+
+const placeholder = (key, label) => {
+  if (/^(logo|aliado)-/.test(key)) {                       // placeholder de logos: cuadro con el nombre
+    const w = (label || key).split(' '), m = Math.ceil(w.length / 2);
+    const l1 = w.slice(0, m).join(' '), l2 = w.slice(m).join(' ');
+    const svg = `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240'><rect width='400' height='240' rx='24' fill='#fff'/><rect x='6' y='6' width='388' height='228' rx='20' fill='none' stroke='#cfc8b3' stroke-width='3' stroke-dasharray='10 10'/><text x='200' y='108' font-family='Georgia,serif' font-size='30' text-anchor='middle' fill='#233d4d'>${l1}</text><text x='200' y='148' font-family='Georgia,serif' font-size='30' text-anchor='middle' fill='#233d4d'>${l2}</text><text x='200' y='200' font-family='Arial' font-size='16' letter-spacing='3' text-anchor='middle' fill='#fe7f2d'>LOGO</text></svg>`;
+    return 'data:image/svg+xml,' + encodeURIComponent(svg);
+  }
   const e = EMOJI[key] || EMOJI[key.split('-')[0]] || '🌿';
   const svg = `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#619b8a'/><stop offset='1' stop-color='#a1c181'/></linearGradient></defs><rect width='800' height='500' fill='url(#g)'/><text x='400' y='300' font-size='130' text-anchor='middle'>${e}</text></svg>`;
   return 'data:image/svg+xml,' + encodeURIComponent(svg);
 };
+
+/* Orden de búsqueda: 1) assets/img/<clave>.jpg  2) lo escrito en IMG  3) placeholder */
+const LOCAL_DIR = 'assets/img/';
+const EXT = {};   // excepciones: EXT['hero'] = 'webp';  EXT['aliado-caribe'] = 'svg';
+const extOf = key => EXT[key] || (/^(logo|aliado)-/.test(key) ? 'png' : 'jpg');
 document.querySelectorAll('img[data-img]').forEach(img => {
   const key = img.dataset.img, v = IMG[key];
-  const src = !v ? placeholder(key) : (v.startsWith('photo-') ? unsplash(v) : v);
-  img.draggable = false;
-  img.addEventListener('error', () => { img.src = placeholder(key); }, { once: true });
-  img.src = src;
+  const chain = [`${LOCAL_DIR}${key}.${extOf(key)}`];
+  if (v) chain.push(v.startsWith('photo-') ? unsplash(v) : v);
+  chain.push(placeholder(key, img.dataset.name));
+  let n = 0; img.draggable = false;
+  img.addEventListener('error', () => { if (++n < chain.length) img.src = chain[n]; });
+  img.src = chain[0];
 });
 
 /* ============ 2. UTILIDADES ============ */
@@ -64,7 +89,7 @@ const EN = {
   cta_plan: 'Plan your trip',
   hero_title: 'Between seas and rivers, live the experience',
   hero_sub: 'A new way to discover, feel and tell the story of Urabá: beaches, jungle, living culture and a hotel where the adventure begins.',
-  hero_b1: 'Discover the experiences', hero_b2: 'See rooms'
+  hero_b1: 'Discover the experiences', hero_b2: 'See rooms', nav_plans: 'Plans', nav_lib: 'Bookstore', nav_rest: 'Food', nav_more: 'Discover'
 };
 const ES = {};
 $$('[data-i18n]').forEach(el => ES[el.dataset.i18n] = el.textContent);
@@ -254,3 +279,110 @@ if (hc) {
   timer = setInterval(() => showRoom(hi + 1), 8000);
   hc.addEventListener('mouseenter', stop);
 }
+
+
+/* ============ 16. BARRA DE PROMOCIÓN ============ */
+$('#promoX')?.addEventListener('click', () => document.body.classList.remove('has-promo'));
+addEventListener('scroll', () => document.body.classList.toggle('promo-hidden', scrollY > 80), { passive: true });
+
+/* ============ 17. MODAL DE LA CARTA ============ */
+const cartaModal = $('#carta');
+if (cartaModal) {
+  let lastFocus;
+  const openCarta = () => {
+    lastFocus = document.activeElement;
+    cartaModal.classList.add('is-open');
+    cartaModal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-open');
+    $('.modal__body', cartaModal).scrollTop = 0;
+    $('.modal__x', cartaModal).focus();
+  };
+  const closeCarta = () => {
+    cartaModal.classList.remove('is-open');
+    cartaModal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('modal-open');
+    lastFocus && lastFocus.focus();
+  };
+  $$('[data-open="carta"]').forEach(b => b.addEventListener('click', openCarta));
+  $$('[data-close]', cartaModal).forEach(b => b.addEventListener('click', closeCarta));
+  addEventListener('keydown', e => { if (e.key === 'Escape' && cartaModal.classList.contains('is-open')) closeCarta(); });
+}
+
+/* ============ 18. GALERÍA HORIZONTAL + LIGHTBOX ============ */
+const gal = $('#gal');
+if (gal) {
+  let down = false, sx = 0, sl = 0, moved = false;
+  gal.addEventListener('pointerdown', e => { if (e.pointerType !== 'mouse') return; down = true; moved = false; sx = e.clientX; sl = gal.scrollLeft; gal.classList.add('drag'); });
+  addEventListener('pointermove', e => { if (!down) return; const dx = e.clientX - sx; if (Math.abs(dx) > 4) moved = true; gal.scrollLeft = sl - dx; });
+  addEventListener('pointerup', () => { down = false; gal.classList.remove('drag'); });
+  gal.addEventListener('click', e => { if (moved) { e.stopPropagation(); e.preventDefault(); moved = false; } }, true);
+  $$('[data-gal]').forEach(b => b.addEventListener('click', () => gal.scrollBy({ left: +b.dataset.gal * gal.clientWidth * .7, behavior: 'smooth' })));
+
+  const lb = $('#lb'), stage = $('.lb__stage', lb), cap = $('.lb__cap', lb);
+  const openLb = t => {
+    if (t.classList.contains('g--video')) {
+      const v = t.dataset.video;
+      if (!v) { toast('Aquí se mostrará el video de la experiencia.'); return; }
+      stage.innerHTML = v.endsWith('.mp4') ? `<video src="${v}" controls autoplay playsinline></video>` : `<iframe src="${v}" allow="autoplay; fullscreen" allowfullscreen></iframe>`;
+    } else stage.innerHTML = `<img src="${$('img', t).src}" alt="">`;
+    cap.textContent = $('figcaption', t).textContent;
+    lb.classList.add('is-open'); lb.setAttribute('aria-hidden', 'false'); document.body.classList.add('modal-open');
+  };
+  const closeLb = () => { lb.classList.remove('is-open'); lb.setAttribute('aria-hidden', 'true'); document.body.classList.remove('modal-open'); stage.innerHTML = ''; };
+  $$('.g').forEach(t => { t.addEventListener('click', () => openLb(t)); t.addEventListener('keydown', e => { if (e.key === 'Enter') openLb(t); }); });
+  $('[data-lbclose]', lb).addEventListener('click', closeLb);
+  lb.addEventListener('click', e => { if (e.target === lb || e.target === stage) closeLb(); });
+  addEventListener('keydown', e => { if (e.key === 'Escape' && lb.classList.contains('is-open')) closeLb(); });
+}
+
+/* ============ 19. TESTIMONIOS ============ */
+const ts = $$('.tslide'), tdots = $$('.tdots button');
+if (ts.length) {
+  let ti = 0, ttimer;
+  const showT = n => { ti = (n + ts.length) % ts.length; ts.forEach((s, k) => s.classList.toggle('is-active', k === ti)); tdots.forEach((d, k) => d.classList.toggle('is-active', k === ti)); };
+  tdots.forEach((d, k) => d.addEventListener('click', () => { clearInterval(ttimer); showT(k); }));
+  ttimer = setInterval(() => showT(ti + 1), 7000);
+  $('.testi__slider').addEventListener('mouseenter', () => clearInterval(ttimer));
+}
+
+/* ============ 20. FILTRO DE PLANES ============ */
+const fchips = $$('[data-filter]');
+fchips.forEach(b => b.addEventListener('click', () => {
+  fchips.forEach(x => x.classList.toggle('is-active', x === b));
+  const f = b.dataset.filter;
+  $$('.plan').forEach(p => {
+    const show = f === 'all' || p.dataset.cat.split(' ').includes(f);
+    p.classList.toggle('is-hidden', !show);
+    if (show) p.classList.add('is-visible');
+  });
+}));
+
+/* ============ 21. RUTAS DE CUATRIMOTOS ============ */
+$$('.routes').forEach(g => {
+  const box = g.parentElement;
+  g.addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    $$('button', g).forEach(x => x.classList.toggle('is-active', x === b));
+    $$('.rpanel', box).forEach(p => p.classList.toggle('is-active', p.dataset.r === b.dataset.r));
+  });
+});
+
+
+/* ============ 22. MENÚ: DESPLEGABLE "DESCUBRE" Y MENÚ MÓVIL ============ */
+const more = $('.nav__more'), moreBtn = $('.nav__more-btn'), hdr = $('.header');
+moreBtn?.addEventListener('click', e => {
+  e.stopPropagation();
+  moreBtn.setAttribute('aria-expanded', more.classList.toggle('is-open'));
+});
+document.addEventListener('click', e => {
+  if (more && !more.contains(e.target)) { more.classList.remove('is-open'); moreBtn.setAttribute('aria-expanded', false); }
+});
+addEventListener('keydown', e => { if (e.key === 'Escape') more?.classList.remove('is-open'); });
+burger.addEventListener('click', () => {
+  const open = nav.classList.contains('is-open');
+  hdr.classList.toggle('nav-open', open);
+  document.body.classList.toggle('modal-open', open);
+});
+$$('#nav a').forEach(a => a.addEventListener('click', () => {
+  hdr.classList.remove('nav-open'); document.body.classList.remove('modal-open'); more?.classList.remove('is-open');
+}));
